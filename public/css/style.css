@@ -1,0 +1,114 @@
+/* 
+    Document   : style.css
+    Created on : May 30, 2018, 6:22:47 PM
+    user     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+  #myform {
+    text-align: center;
+    padding: 5px;
+    border: 1px dotted #ccc;
+    margin: 2%;
+}
+.qty {
+    width: 35px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+  
+
+.StripeElement {
+  background-color: white;
+height: 40px;
+padding: 10px 12px;
+border-radius: 4px;
+border: 1px solid transparent;
+box-shadow: 0 1px 3px 0 #e6ebf1;
+-webkit-transition: box-shadow 150ms ease;
+transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.address-box{
+   border-radius: 4px;
+   border: 1px solid rgba(0,0,0,.125);
+   border-radius: .25rem;
+     
+}
+.address-row{
+    display:block;
+}
+.address-header{
+    
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.address-info{
+     background-color:#FFF5EE;
+     padding: 1.25rem;
+}
+.pay-margin{
+    margin-top: 10px;
+}
+.progress-bar.active{
+    animation: progress-bar-stripes 2s linear infinite;
+}
+.comment{
+  margin-bottom: 45px;
+}
+.user-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  float: left;
+}
+.user-name{
+  float: left;
+  margin: 5px;
+  margin-left: 15px;
+}
+.user-time{
+  font-size: 11px;
+  font-style: italic;
+  color: #aaa;
+}
+.comment-content{
+  clear: both;
+  margin-left: 65px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+.comment-title{
+margin-bottom: 45px;
+}
+.comment-title>span{
+  margin-right: 15px;
+}
+
+.list-group1{
+  overflow-y: scroll;
+  height: 250px;
+}
+
